@@ -121,7 +121,12 @@ python enhanced_3d_tracker.py
       * Ensure you ran the `git clone` command in step 2 of Installation. The folder `Depth-Anything` must exist next to your `.py` file.
   * **Video Write Error**:
       * The script uses the `MJPG` codec. If the output file is empty, ensure you have write permissions in the folder.
-  * **Low FPS**:
+  * **Low FPS**: 
       * The "Large" (ViT-L) depth model is heavy. If you are on a CPU or weaker GPU, change `DEPTH_MODEL_NAME` in the code to `depth_anything_vits14` (Small) for better speed.
 
 
+### Modified Codes Added
+
+- [TSDM Modified Live Demo](https://github.com/Arpan2307/RP_Project/blob/main/TSDM_modified_livedemo.py)
+
+- [SAM2 Voice Integration](https://github.com/Arpan2307/RP_Project/blob/main/sam2_voice.py)
